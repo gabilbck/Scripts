@@ -22,6 +22,8 @@ function inverso(entrada){
     } else if (ehNumero(entrada)){
         resposta = entrada * -1;
         return resposta;
+    } else {
+        return "booleano ou número esperados, mas o parâmetro é do tipo " + typeof entrada;
     }
 }
 
